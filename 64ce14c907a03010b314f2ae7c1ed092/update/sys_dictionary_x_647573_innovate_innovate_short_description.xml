@@ -9,7 +9,7 @@
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label> Short description</column_label>
+        <column_label>Short description</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -48,15 +48,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-03 00:58:49</sys_created_on>
-        <sys_id>0e60e40d07a03010b314f2ae7c1ed052</sys_id>
+        <sys_id>c20677691ba430109bbcebd5624bcb2a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name> Short description</sys_name>
+        <sys_name>Short description</sys_name>
         <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
         <sys_policy/>
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_update_name>sys_dictionary_x_647573_innovate_innovate_short_description</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-03 00:58:49</sys_updated_on>
+        <sys_updated_on>2021-06-05 05:49:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
