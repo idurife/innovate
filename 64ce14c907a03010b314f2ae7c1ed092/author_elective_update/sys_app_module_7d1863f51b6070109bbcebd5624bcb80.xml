@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Historic NeedIt Data</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_647573_innovate_historic_needit_data</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-05 23:26:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7d1863f51b6070109bbcebd5624bcb80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Historic NeedIt Data</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sys_app_module_7d1863f51b6070109bbcebd5624bcb80</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-05 23:26:41</sys_updated_on>
+        <timeline_page/>
+        <title>Historic NeedIt Data</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</application>
+        <file_path/>
+        <instance_id>ca576f24dbcb6c10a667cac5059619f5</instance_id>
+        <instance_name>dev107192</instance_name>
+        <name>sys_app_module_7d1863f51b6070109bbcebd5624bcb80</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Historic NeedIt Data</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_647573_innovate_historic_needit_data</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-05 23:26:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7d1863f51b6070109bbcebd5624bcb80</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Historic NeedIt Data</sys_name><sys_overrides/><sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package><sys_policy/><sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope><sys_update_name>sys_app_module_7d1863f51b6070109bbcebd5624bcb80</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-05 23:26:41</sys_updated_on><timeline_page/><title>Historic NeedIt Data</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>296598492</payload_hash>
+        <record_name>Historic NeedIt Data</record_name>
+        <reverted_from/>
+        <source>71872bb51b6070109bbcebd5624bcb22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-05 23:26:41</sys_created_on>
+        <sys_id>391863f51b6070109bbcebd5624bcb82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179de80026d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-05 23:26:41</sys_updated_on>
+        <type>Module</type>
+        <update_guid>711863f57b6070102addcd92dd3be982</update_guid>
+        <update_guid_history>711863f57b6070102addcd92dd3be982:296598492</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Historic NeedIt Data">8882088a1ba070109bbcebd5624bcbdb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 01:22:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>3941b750d16248488d2ef659dd898564</sys_id>
+        <sys_metadata>7d1863f51b6070109bbcebd5624bcb80</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Historic NeedIt Data</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_scope_delete display_value="">a2636f9d71e647cb8229cfe7f320db39</sys_scope_delete>
+        <sys_update_name>sys_app_module_7d1863f51b6070109bbcebd5624bcb80</sys_update_name>
+        <sys_update_version display_value="sys_app_module_7d1863f51b6070109bbcebd5624bcb80">391863f51b6070109bbcebd5624bcb82</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-06 01:22:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

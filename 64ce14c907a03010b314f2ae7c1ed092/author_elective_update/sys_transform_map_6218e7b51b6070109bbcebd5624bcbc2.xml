@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="DELETE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>All Fields</enforce_mandatory_fields>
+        <name>Import Historic NeedIt Data</name>
+        <order>100</order>
+        <run_business_rules>false</run_business_rules>
+        <run_script>true</run_script>
+        <script><![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+  if(!("u_requested_for_email" in source)){
+  	var name = source.u_requested_for.toLowerCase();
+  	target.u_requested_for_email = name.replace(" ", ".") + "@example.com";
+  }
+
+})(source, target, map, log, action==="update");]]></script>
+        <source_table>x_647573_innovate_historic_needit_data</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-05 23:28:48</sys_created_on>
+        <sys_id>6218e7b51b6070109bbcebd5624bcbc2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Import Historic NeedIt Data</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sys_transform_map_6218e7b51b6070109bbcebd5624bcbc2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-06 00:36:41</sys_updated_on>
+        <target_table>x_647573_innovate_needit</target_table>
+    </sys_transform_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</application>
+        <file_path/>
+        <instance_id>ca576f24dbcb6c10a667cac5059619f5</instance_id>
+        <instance_name>dev107192</instance_name>
+        <name>sys_transform_map_6218e7b51b6070109bbcebd5624bcbc2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_map"&gt;&lt;sys_transform_map action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;copy_empty_fields&gt;false&lt;/copy_empty_fields&gt;&lt;create_new_record_on_empty_coalesce_fields&gt;false&lt;/create_new_record_on_empty_coalesce_fields&gt;&lt;enforce_mandatory_fields&gt;All Fields&lt;/enforce_mandatory_fields&gt;&lt;name&gt;Import Historic NeedIt Data&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;run_business_rules&gt;false&lt;/run_business_rules&gt;&lt;run_script&gt;true&lt;/run_script&gt;&lt;script&gt;&lt;![CDATA[(function transformRow(source, target, map, log, isUpdate) {
+
+  if(!("u_requested_for_email" in source)){
+  	var name = source.u_requested_for.toLowerCase();
+  	target.u_requested_for_email = name.replace(" ", ".") + "@example.com";
+  }
+
+})(source, target, map, log, action==="update");]]&gt;&lt;/script&gt;&lt;source_table&gt;x_647573_innovate_historic_needit_data&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_map&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-06-05 23:28:48&lt;/sys_created_on&gt;&lt;sys_id&gt;6218e7b51b6070109bbcebd5624bcbc2&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Import Historic NeedIt Data&lt;/sys_name&gt;&lt;sys_package display_value="Innovate" source="x_647573_innovate"&gt;64ce14c907a03010b314f2ae7c1ed092&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Innovate"&gt;64ce14c907a03010b314f2ae7c1ed092&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_map_6218e7b51b6070109bbcebd5624bcbc2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-06-06 00:36:41&lt;/sys_updated_on&gt;&lt;target_table&gt;x_647573_innovate_needit&lt;/target_table&gt;&lt;/sys_transform_map&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1010383949</payload_hash>
+        <record_name>Import Historic NeedIt Data</record_name>
+        <reverted_from/>
+        <source>71872bb51b6070109bbcebd5624bcb22</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 00:36:41</sys_created_on>
+        <sys_id>8f1833711ba070109bbcebd5624bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179dec015f80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-06 00:36:41</sys_updated_on>
+        <type>Table Transform Map</type>
+        <update_guid>c7183371bca07010cc74a4efe1af9299</update_guid>
+        <update_guid_history>c7183371bca07010cc74a4efe1af9299:1010383949,5a9aebf52c607010a3df2a636ff5daca:930873594,f098ebb55a607010689b62d7e8753476:1799117651</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-06 00:43:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_map">sys_transform_map</sys_db_object>
+        <sys_id>286e439b1e1a4a209dd32e2ed95ea400</sys_id>
+        <sys_metadata>6218e7b51b6070109bbcebd5624bcbc2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Import Historic NeedIt Data</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_scope_delete display_value="">a2636f9d71e647cb8229cfe7f320db39</sys_scope_delete>
+        <sys_update_name>sys_transform_map_6218e7b51b6070109bbcebd5624bcbc2</sys_update_name>
+        <sys_update_version display_value="sys_transform_map_6218e7b51b6070109bbcebd5624bcbc2">8f1833711ba070109bbcebd5624bcb99</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-06 00:43:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
