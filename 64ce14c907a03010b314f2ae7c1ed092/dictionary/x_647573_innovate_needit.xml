@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_647573_innovate_needit" sizeclass="4" type="collection">
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_647573_innovate_needit" sizeclass="12" type="collection">
         <element label="Campo nuevo" max_length="40" name="campo_nuevo" type="string"/>
         <element label="Columna label" max_length="40" name="columna_label" type="integer"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
