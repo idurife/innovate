@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_647573_innovate_needit" sizeclass="12" type="collection">
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_647573_innovate_needit" sizeclass="6" type="collection">
         <element label="Campo nuevo" max_length="40" name="campo_nuevo" type="string"/>
         <element label="Columna label" max_length="40" name="columna_label" type="integer"/>
+        <element attributes="target_field=percent_complete_target,target_threshold_colors=0:#FF1493;33:#FF4500;66:#FF8C00;90:#FFA500,&#13;&#10;target_field=target" label="% complete" max_length="15" name="complete" type="percent_complete"/>
+        <element label="Target" max_length="20" name="target" type="decimal"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="140" name="u_requested_for_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
