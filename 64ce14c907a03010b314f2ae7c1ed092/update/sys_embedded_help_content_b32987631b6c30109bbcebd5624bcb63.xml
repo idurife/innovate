@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <content><![CDATA[<h1 class="title topictitle1"> <strong>Usando el formulario NeedIt List</strong></h1>
+<p><strong>Utilice la aplicación NeedIt para solicitar servicios y bienes de varios departamentos.</strong></p>
+<ul class="steps-unordered"><li class="li step"> <strong>Legal</strong></li><li><strong>Recursos humanos</strong></li><li><strong>nstalaciones</strong></li></ul>
+<h1 class="title topictitle1"><strong>Campos de formulario NeedIt .</strong></h1>
+<ol class="steps-ordered"><li class="li step">For new NeedIt records, the Requested for field is pre-populated with your name. If you are opening a NeedIt request for someone else, you can change the value in the Requested for field.</li><li>The Requested for email field is automatically populated if you change the user in the Requested for field. You can change the Requested for email field value.</li><li>The choices in the What needed field depend on the value in the Request type field.</li><li>If the value in the What needed field is Other, the Other field appears. Use the Other field to add a few words about your request.</li><li>Use the calendar picker in the When needed field to set the due date for the NeedIt request.</li><li class="li step">Use the Short description and Description fields to provide more information about your request.</li></ol>
+<div class="note tm-element"><span class="notetitle">Note:<strong>Al crear solicitudes NeedIt, la fecha </strong></span><em>Cuando se necesita</em> no puede ser hoy ni en el pasado.</div>
+<h1 class="title topictitle1">¿ <strong>Necesita más ayuda?</strong></h1>
+<p><strong>Puede obtener información sobre los campos de formulario en el sitio de documentos de ServiceNow.</strong></p>
+<div class="video"><iframe src="https://www.youtube.com/embed/DbRocGg6kbw" allowfullscreen=""></iframe>
+<p class="p">Video de NeedIt List</p>
+</div>
+<p> </p>
+<p> </p>]]></content>
+        <last_sync/>
+        <modifier>normal</modifier>
+        <name>NeedIt List - Admin</name>
+        <page>x_647573_innovate_needit_list</page>
+        <product>1</product>
+        <qualifier/>
+        <role display_value="x_647573_innovate.admin" name="x_647573_innovate.admin">26f76e2107643010b314f2ae7c1ed00a</role>
+        <role_order>10</role_order>
+        <snc_created>false</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-11 07:44:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b32987631b6c30109bbcebd5624bcb63</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NeedIt List - Admin</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sys_embedded_help_content_b32987631b6c30109bbcebd5624bcb63</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-11 07:46:52</sys_updated_on>
+        <version>all</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=b32987631b6c30109bbcebd5624bcb63"/>
+</record_update>

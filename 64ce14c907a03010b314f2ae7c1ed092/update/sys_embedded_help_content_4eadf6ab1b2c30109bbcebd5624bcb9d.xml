@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <content><![CDATA[<h1 class="title topictitle1"><strong>Administering the NeedIt Form</strong></h1>
+<p><strong>Solo los miembros del equipo de la aplicación NeedIt pueden realizar cambios en el formulario NeedIt. No realice cambios en el formulario <em>NeedIt</em> sin una solicitud de cambio aprobada.</strong></p>
+<div class="note tm-element"><span class="notetitle">Note:Isacc Ramirez,<strong> le ofrece la aplicación NeedIt.</strong><br /></span></div>
+<p> </p>]]></content>
+        <last_sync/>
+        <modifier>normal</modifier>
+        <name>NeedIt Form -Admin</name>
+        <page>x_647573_innovate_needit</page>
+        <product>1</product>
+        <qualifier/>
+        <role display_value="x_647573_innovate.admin" name="x_647573_innovate.admin">26f76e2107643010b314f2ae7c1ed00a</role>
+        <role_order>10</role_order>
+        <snc_created>false</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-11 06:51:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4eadf6ab1b2c30109bbcebd5624bcb9d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NeedIt Form -Admin</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sys_embedded_help_content_4eadf6ab1b2c30109bbcebd5624bcb9d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-11 07:25:07</sys_updated_on>
+        <version>all</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=4eadf6ab1b2c30109bbcebd5624bcb9d"/>
+</record_update>
