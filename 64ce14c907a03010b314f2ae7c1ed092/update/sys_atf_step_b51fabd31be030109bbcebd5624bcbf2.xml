@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Log: {{Step 2: Record Insert.Record}}</description>
+        <display_name>Log</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Prueba de Cuando sea necesario con una fecha futura que debería tener éxito. Registro insertado por prueba: When needed - Future</notes>
+        <order>4</order>
+        <snapshot/>
+        <step_config display_value="Log">58ab71985f30220012b44adb7f46661e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 15:48:10</sys_created_on>
+        <sys_id>b51fabd31be030109bbcebd5624bcbf2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Log</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sys_atf_step_b51fabd31be030109bbcebd5624bcbf2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 16:16:58</sys_updated_on>
+        <table/>
+        <test display_value="When needed - Future">b2eeeb931be030109bbcebd5624bcb48</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=b51fabd31be030109bbcebd5624bcbf2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b51fabd31be030109bbcebd5624bcbf2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 15:48:10</sys_created_on>
+        <sys_id>7d1fabd31be030109bbcebd5624bcbf3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 16:16:58</sys_updated_on>
+        <value>{{step['e91fabd31be030109bbcebd5624bcbe7'].record_id}}</value>
+        <variable display_value="Log">523c79985f30220012b44adb7f46663a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b51fabd31be030109bbcebd5624bcbf2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log</field>
+        <id>b51fabd31be030109bbcebd5624bcbf2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 16:16:58</sys_created_on>
+        <sys_id>7fa5ffd71be030109bbcebd5624bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 16:16:58</sys_updated_on>
+        <table>var__m_atf_input_variable_58ab71985f30220012b44adb7f46661e</table>
+        <value>{{step['e91fabd31be030109bbcebd5624bcbe7'].record_id}}</value>
+    </sys_element_mapping>
+</record_update>

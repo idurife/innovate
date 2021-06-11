@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite">
+    <sys_atf_test_suite action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Prueba en la regla de negocio NeedIt When necesario campo fecha para asegurarse de que funciona en tres casos: fecha pasada, hoy y futuro.</description>
+        <input_filter/>
+        <name>When needed Field NeedIt App</name>
+        <parent display_value=" NeedIt App">399580271b2430109bbcebd5624bcb2e</parent>
+        <sys_class_name>sys_atf_test_suite</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 17:31:17</sys_created_on>
+        <sys_id>c0864c271b2430109bbcebd5624bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>When needed Field NeedIt App</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sys_atf_test_suite_c0864c271b2430109bbcebd5624bcb69</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 17:31:17</sys_updated_on>
+    </sys_atf_test_suite>
+</record_update>

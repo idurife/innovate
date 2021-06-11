@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="When needed - Future">b2eeeb931be030109bbcebd5624bcb48</copied_from>
+        <description>Test generated from template. To complete this test do the following:
+1. Create a user with specified roles and groups for impersonation.
+2. Insert a record to the table.
+3. Select a record and validate field values.
+4. Log an output.
+</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <name>When needed - Past</name>
+        <parameters/>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-10 16:40:51</sys_created_on>
+        <sys_id>a92b7b1f1be030109bbcebd5624bcb72</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>When needed - Past</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sys_atf_test_a92b7b1f1be030109bbcebd5624bcb72</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-10 16:41:03</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=a92b7b1f1be030109bbcebd5624bcb72"/>
+</record_update>
