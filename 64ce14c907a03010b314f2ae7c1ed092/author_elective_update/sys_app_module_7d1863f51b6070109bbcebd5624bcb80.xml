@@ -65,7 +65,7 @@
         <update_guid_history>711863f57b6070102addcd92dd3be982:296598492</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Historic NeedIt Data">8882088a1ba070109bbcebd5624bcbdb</sys_audit_delete>
+        <sys_audit_delete display_value="">8882088a1ba070109bbcebd5624bcbdb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-06 01:22:05</sys_created_on>

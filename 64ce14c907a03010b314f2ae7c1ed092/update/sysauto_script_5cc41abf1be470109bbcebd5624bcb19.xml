@@ -17,7 +17,7 @@
         <run_time>1970-01-01 08:00:00</run_time>
         <run_type>daily</run_type>
         <script><![CDATA[var tbl = 'x_647573_innovate_needit'; //Query from this table
-var returnNum = 2; //Return this number of records in the array
+var returnNum = 4; //Return this number of records in the array
 var answer = new Array();
 
 //Set up the GlideRecord query
@@ -66,14 +66,14 @@ if (rec.hasNext()) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-11 22:30:39</sys_created_on>
         <sys_id>5cc41abf1be470109bbcebd5624bcb19</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Generate Random NeedIt Records</sys_name>
         <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
         <sys_policy/>
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_update_name>sysauto_script_5cc41abf1be470109bbcebd5624bcb19</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-11 23:34:37</sys_updated_on>
+        <sys_updated_on>2021-06-15 21:52:56</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>

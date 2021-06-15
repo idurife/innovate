@@ -845,11 +845,11 @@
         <sys_created_on>2021-06-07 16:44:45</sys_created_on>
         <sys_id>a54f54ea1ba8b0109bbcebd5624bcbaa</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
         <sys_policy/>
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e14f54ea1ba8b0109bbcebd5624bcb9f_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-07 16:44:45</sys_updated_on>
         <url/>
@@ -868,11 +868,11 @@
         <sys_created_on>2021-06-07 16:44:45</sys_created_on>
         <sys_id>a94f54ea1ba8b0109bbcebd5624bcbaf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
         <sys_policy/>
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e14f54ea1ba8b0109bbcebd5624bcb9f_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-06-07 16:44:45</sys_updated_on>
         <url/>
