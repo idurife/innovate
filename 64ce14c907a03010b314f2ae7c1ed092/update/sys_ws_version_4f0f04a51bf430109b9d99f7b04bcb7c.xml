@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_version">
+    <sys_ws_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <deprecated>false</deprecated>
+        <is_default>true</is_default>
+        <short_description/>
+        <sys_class_name>sys_ws_version</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-16 23:15:38</sys_created_on>
+        <sys_id>4f0f04a51bf430109b9d99f7b04bcb7c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>v2</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sys_ws_version_4f0f04a51bf430109b9d99f7b04bcb7c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-16 23:15:38</sys_updated_on>
+        <version>2</version>
+        <version_id>v2</version_id>
+        <web_service_definition display_value="NeedIt API">4c5b97911b7430109b9d99f7b04bcb95</web_service_definition>
+    </sys_ws_version>
+</record_update>
