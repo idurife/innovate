@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="DELETE">
+        <button display_value="Create New">33d06ac61bb4b0109b9d99f7b04bcb35</button>
+        <item_parameter display_value="When Needed">0c3f92861bb4b0109b9d99f7b04bcbb5</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-18 23:31:52</sys_created_on>
+        <sys_id>c6e5aeca1bb4b0109b9d99f7b04bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0c3f92861bb4b0109b9d99f7b04bcbb5</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_c6e5aeca1bb4b0109b9d99f7b04bcbb9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-18 23:31:52</sys_updated_on>
+        <ui_parameter display_value="What needed">d743664a1bb4b0109b9d99f7b04bcbb7</ui_parameter>
+    </sys_sg_action_param_map>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</application>
+        <file_path/>
+        <instance_id>530f916ddb483050f37acac5059619bc</instance_id>
+        <instance_name>dev114858</instance_name>
+        <name>sys_sg_action_param_map_c6e5aeca1bb4b0109b9d99f7b04bcbb9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map"><sys_sg_action_param_map action="INSERT_OR_UPDATE"><button display_value="Create New">33d06ac61bb4b0109b9d99f7b04bcb35</button><item_parameter display_value="When Needed">0c3f92861bb4b0109b9d99f7b04bcbb5</item_parameter><sys_class_name>sys_sg_action_param_map</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-18 23:31:52</sys_created_on><sys_id>c6e5aeca1bb4b0109b9d99f7b04bcbb9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>0c3f92861bb4b0109b9d99f7b04bcbb5</sys_name><sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package><sys_policy/><sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope><sys_update_name>sys_sg_action_param_map_c6e5aeca1bb4b0109b9d99f7b04bcbb9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-18 23:31:52</sys_updated_on><ui_parameter display_value="What needed">d743664a1bb4b0109b9d99f7b04bcbb7</ui_parameter></sys_sg_action_param_map></record_update>]]></payload>
+        <payload_hash>-1214604613</payload_hash>
+        <record_name>0c3f92861bb4b0109b9d99f7b04bcbb5</record_name>
+        <reverted_from/>
+        <source>4c8c71811b7030109b9d99f7b04bcb16</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-18 23:31:52</sys_created_on>
+        <sys_id>54f5220e1bb4b0109b9d99f7b04bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a21776cf70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-18 23:31:52</sys_updated_on>
+        <type>Action parameters mapping</type>
+        <update_guid>9cf5220e30b4b01019e4d45ab72f57ba</update_guid>
+        <update_guid_history>9cf5220e30b4b01019e4d45ab72f57ba:-1214604613</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-18 23:43:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_action_param_map">sys_sg_action_param_map</sys_db_object>
+        <sys_id>059abceaea624ec0b4811deedabae400</sys_id>
+        <sys_metadata>c6e5aeca1bb4b0109b9d99f7b04bcbb9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0c3f92861bb4b0109b9d99f7b04bcbb5</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_scope_delete display_value="">a2636f9d71e647cb8229cfe7f320db39</sys_scope_delete>
+        <sys_update_name>sys_sg_action_param_map_c6e5aeca1bb4b0109b9d99f7b04bcbb9</sys_update_name>
+        <sys_update_version display_value="sys_sg_action_param_map_c6e5aeca1bb4b0109b9d99f7b04bcbb9">54f5220e1bb4b0109b9d99f7b04bcbbb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-18 23:43:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

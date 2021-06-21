@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Create New">33d06ac61bb4b0109b9d99f7b04bcb35</button>
+        <item_parameter display_value="Request type">24df92861bb4b0109b9d99f7b04bcbbb</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-18 23:29:50</sys_created_on>
+        <sys_id>6b65eaca1bb4b0109b9d99f7b04bcb2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>24df92861bb4b0109b9d99f7b04bcbbb</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_6b65eaca1bb4b0109b9d99f7b04bcb2a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-18 23:29:50</sys_updated_on>
+        <ui_parameter display_value="Request type">7772664a1bb4b0109b9d99f7b04bcb15</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

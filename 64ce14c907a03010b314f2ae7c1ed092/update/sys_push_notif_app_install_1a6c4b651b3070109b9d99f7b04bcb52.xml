@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
     <sys_push_notif_app_install action="INSERT_OR_UPDATE">
-        <active>false</active>
-        <last_registered_on>2021-06-17 13:09:30</last_registered_on>
+        <active>true</active>
+        <last_registered_on>2021-06-18 21:31:50</last_registered_on>
         <sys_class_name>sys_push_notif_app_install</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-17 13:02:59</sys_created_on>
         <sys_id>1a6c4b651b3070109b9d99f7b04bcb52</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>ft8yucB3RbKtM27ECxAgUK:APA91bHWJYp-MH9xEDuzSOWlBaw0dCgb8VrDl-8Tj2f2rE0NWpqelMOP9lJc47yo4ffcwNoC5ZlsZ8mxxKfcEufVtAEJmaFXoWahF4iv-06d6NfHnMZfruDeBR9cH7kcdJoEWjRkWITp</sys_name>
         <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
         <sys_policy/>
@@ -15,7 +15,7 @@
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_update_name>sys_push_notif_app_install_1a6c4b651b3070109b9d99f7b04bcb52</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-17 13:23:19</sys_updated_on>
+        <sys_updated_on>2021-06-18 21:31:50</sys_updated_on>
         <sys_user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</sys_user_id>
         <token>ft8yucB3RbKtM27ECxAgUK:APA91bHWJYp-MH9xEDuzSOWlBaw0dCgb8VrDl-8Tj2f2rE0NWpqelMOP9lJc47yo4ffcwNoC5ZlsZ8mxxKfcEufVtAEJmaFXoWahF4iv-06d6NfHnMZfruDeBR9cH7kcdJoEWjRkWITp</token>
     </sys_push_notif_app_install>

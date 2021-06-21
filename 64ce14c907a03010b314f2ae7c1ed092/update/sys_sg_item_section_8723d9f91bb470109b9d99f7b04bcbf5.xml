@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_section">
+    <sys_sg_item_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data_item/>
+        <destination_screen display_value="My Open NeedIt Requests">25277c791b7470109b9d99f7b04bcb2c</destination_screen>
+        <display_title>true</display_title>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <hide_see_all_button>false</hide_see_all_button>
+        <max_items_display_count>15</max_items_display_count>
+        <orientation>horizontal</orientation>
+        <required_roles/>
+        <sys_class_name>sys_sg_item_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-17 22:51:46</sys_created_on>
+        <sys_id>8723d9f91bb470109b9d99f7b04bcbf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My NeedIt</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sys_sg_item_section_8723d9f91bb470109b9d99f7b04bcbf5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-17 22:51:46</sys_updated_on>
+        <table/>
+        <title>My NeedIt</title>
+        <visible_condition/>
+    </sys_sg_item_section>
+</record_update>

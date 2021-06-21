@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
+    <sys_sg_list_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <description>View my open NeedIt records</description>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>on_demand</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="My Open NeedIt Next Quarter List Screen Icon">0fcb05b91bb470109b9d99f7b04bcb9a</icon>
+        <name>My Open NeedIt Next Quarter</name>
+        <roles_override/>
+        <sys_class_name>sys_sg_list_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-17 22:19:32</sys_created_on>
+        <sys_id>43cb05b91bb470109b9d99f7b04bcb52</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My Open NeedIt Next Quarter</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sys_sg_list_screen_43cb05b91bb470109b9d99f7b04bcb52</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-17 22:19:33</sys_updated_on>
+    </sys_sg_list_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=43cb05b91bb470109b9d99f7b04bcb52"/>
+</record_update>
