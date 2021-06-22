@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dimensions">
+    <pa_dimensions action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="pa_buckets">bucket_group=cb2299cf1b7074109b9d99f7b04bcbfd<item display_table="pa_bucket_groups" display_value="Month Halves" endquery="false" field="bucket_group" goto="false" newquery="false" operator="=" or="false" value="cb2299cf1b7074109b9d99f7b04bcbfd"/>
+        </conditions>
+        <description>Divida los datos de la solicitud NeedIt en solicitudes que vencen en la primera mitad del mes y en la segunda mitad del mes</description>
+        <empty_value/>
+        <facts_table>pa_buckets</facts_table>
+        <field>sys_id</field>
+        <manual_breakdown/>
+        <name>NeedIt Requests by Month Half</name>
+        <security_type>1</security_type>
+        <sys_class_name>pa_dimensions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-21 20:09:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7df311431bb074109b9d99f7b04bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Requests by Month Half</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>pa_dimensions_7df311431bb074109b9d99f7b04bcba6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-21 20:09:01</sys_updated_on>
+    </pa_dimensions>
+    <sys_translated_text action="delete_multiple" query="documentkey=7df311431bb074109b9d99f7b04bcba6"/>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicator_breakdowns">
+    <pa_indicator_breakdowns action="INSERT_OR_UPDATE">
+        <breakdown display_value="NeedIt Request type">8d030c071bbc34109b9d99f7b04bcb97</breakdown>
+        <display>true</display>
+        <indicator display_value="NeedIt: Due Monthly">0e8442b61b3834109b9d99f7b04bcbf0</indicator>
+        <order>200</order>
+        <sql_statement/>
+        <sys_class_name>pa_indicator_breakdowns</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-21 14:13:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>85030c071bbc34109b9d99f7b04bcb9e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NeedIt Request type.NeedIt: Due Monthly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>pa_indicator_breakdowns_85030c071bbc34109b9d99f7b04bcb9e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-21 20:22:19</sys_updated_on>
+    </pa_indicator_breakdowns>
+</record_update>

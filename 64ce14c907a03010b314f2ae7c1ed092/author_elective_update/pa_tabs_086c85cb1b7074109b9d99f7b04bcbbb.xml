@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="DELETE">
+        <canvas_page/>
+        <name>NeedIt Application - New Tab 2</name>
+        <page/>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-21 19:34:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>086c85cb1b7074109b9d99f7b04bcbbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Application - New Tab 2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>pa_tabs_086c85cb1b7074109b9d99f7b04bcbbb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-21 19:34:28</sys_updated_on>
+    </pa_tabs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</application>
+        <file_path/>
+        <instance_id>530f916ddb483050f37acac5059619bc</instance_id>
+        <instance_name>dev114858</instance_name>
+        <name>pa_tabs_086c85cb1b7074109b9d99f7b04bcbbb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs"><pa_tabs action="INSERT_OR_UPDATE"><canvas_page/><name>NeedIt Application - New Tab 2</name><page/><sys_class_name>pa_tabs</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-21 19:34:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>086c85cb1b7074109b9d99f7b04bcbbb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NeedIt Application - New Tab 2</sys_name><sys_overrides/><sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package><sys_policy/><sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope><sys_update_name>pa_tabs_086c85cb1b7074109b9d99f7b04bcbbb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-21 19:34:28</sys_updated_on></pa_tabs></record_update>]]></payload>
+        <payload_hash>712893663</payload_hash>
+        <record_name>NeedIt Application - New Tab 2</record_name>
+        <reverted_from/>
+        <source>4c8c71811b7030109b9d99f7b04bcb16</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-21 19:34:40</sys_created_on>
+        <sys_id>be6cc5cb1b7074109b9d99f7b04bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a301154fd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-21 19:34:40</sys_updated_on>
+        <type>Tab</type>
+        <update_guid>c06c85cbfb70741089fd69f65081b1bd</update_guid>
+        <update_guid_history>c06c85cbfb70741089fd69f65081b1bd:-184411219,c06c85cbfb70741089fd69f65081b1bd:-184411219,c06c85cbfb70741089fd69f65081b1bd:-184411219</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="NeedIt Application - New Tab 2">7a6cc5cb1b7074109b9d99f7b04bcb5a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-21 19:34:40</sys_created_on>
+        <sys_db_object display_value="" name="pa_tabs">pa_tabs</sys_db_object>
+        <sys_id>273520770f1d477188d51f1f6af60f59</sys_id>
+        <sys_metadata>086c85cb1b7074109b9d99f7b04bcbbb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Application - New Tab 2</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_scope_delete display_value="">a2636f9d71e647cb8229cfe7f320db39</sys_scope_delete>
+        <sys_update_name>pa_tabs_086c85cb1b7074109b9d99f7b04bcbbb</sys_update_name>
+        <sys_update_version display_value="pa_tabs_086c85cb1b7074109b9d99f7b04bcbbb">be6cc5cb1b7074109b9d99f7b04bcb54</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-21 19:34:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

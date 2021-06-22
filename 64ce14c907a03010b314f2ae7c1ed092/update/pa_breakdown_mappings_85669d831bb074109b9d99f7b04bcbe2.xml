@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_breakdown_mappings">
+    <pa_breakdown_mappings action="INSERT_OR_UPDATE">
+        <breakdown display_value="NeedIt Requests by Month Halves">92e519831bb074109b9d99f7b04bcbb4</breakdown>
+        <facts_table>x_647573_innovate_needit</facts_table>
+        <field/>
+        <script display_value="NeedIt.day">71f4dd031bb074109b9d99f7b04bcba2</script>
+        <scripted>true</scripted>
+        <sys_class_name>pa_breakdown_mappings</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-21 20:19:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>85669d831bb074109b9d99f7b04bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>92e519831bb074109b9d99f7b04bcbb4</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>pa_breakdown_mappings_85669d831bb074109b9d99f7b04bcbe2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-21 20:19:19</sys_updated_on>
+    </pa_breakdown_mappings>
+</record_update>
