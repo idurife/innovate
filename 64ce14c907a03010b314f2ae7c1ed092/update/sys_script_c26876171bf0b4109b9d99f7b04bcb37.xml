@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="c9434fce4a3623120181f955f4a3d6e9" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_647573_innovate_needit</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Domain - Set task_for - NeedIt</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+syncTaskForAndRequestedFor();
+	
+	function syncTaskForAndRequestedFor() {
+	
+		// If the Requested for value changes, set the Task for field to the value of Requested for.	
+		if (current.u_requested_for.changes()) {
+			current.task_for = current.u_requested_for;
+			gs.info("task_for:"+current.task_for);
+			return;
+		}
+	
+		current.u_requested_for = current.task_for;
+		gs.info("u_requested_for:"+current.u_requested_for);
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-22 22:04:57</sys_created_on>
+        <sys_domain>c9434fce4a3623120181f955f4a3d6e9</sys_domain>
+        <sys_domain_path>!!!/!!)/</sys_domain_path>
+        <sys_id>c26876171bf0b4109b9d99f7b04bcb37</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Domain - Set task_for - NeedIt</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sys_script_c26876171bf0b4109b9d99f7b04bcb37</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-22 23:07:06</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=c26876171bf0b4109b9d99f7b04bcb37"/>
+</record_update>

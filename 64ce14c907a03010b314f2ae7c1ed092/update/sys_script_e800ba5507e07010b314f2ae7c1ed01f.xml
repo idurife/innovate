@@ -42,9 +42,18 @@
 // 		gs.error("Prueba de log de error");
 // 		current.setAbortAction(true);
 // 	}
-var niutils = new NeedItUtils();
-	var isPast = niutils.isDatePast(current.u_when_needed);
 	
+//----Domain separation--inicio----------
+	var daysLeadTime = GlideApplicationProperty.getValue('x_647573_innovate.advancedNoticeDays');
+	
+	// Adjust When needed value with daysLeadTime for calculation
+	var whenNeeded = new GlideDateTime(current.u_when_needed.getDisplayValue());
+	whenNeeded.addDaysUTC(-daysLeadTime);
+	var comparisonDate = whenNeeded.getDate();
+	//------------fin---------
+var niutils = new NeedItUtils();
+	//var isPast = niutils.isDatePast(current.u_when_needed);
+	var isPast = niutils.isDatePast(comparisonDate);
 	// If the isDatePast method returns true, the date is in the past.
 	if(isPast == true){
 		gs.addErrorMessage("When needed date cannot be in the past.  Your request has not been saved to the database.");
@@ -57,7 +66,7 @@ var niutils = new NeedItUtils();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e800ba5507e07010b314f2ae7c1ed01f</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>NeedIt When needed field date</sys_name>
         <sys_overrides/>
         <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
@@ -65,7 +74,7 @@ var niutils = new NeedItUtils();
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_update_name>sys_script_e800ba5507e07010b314f2ae7c1ed01f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-21 15:02:40</sys_updated_on>
+        <sys_updated_on>2021-06-23 12:00:21</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

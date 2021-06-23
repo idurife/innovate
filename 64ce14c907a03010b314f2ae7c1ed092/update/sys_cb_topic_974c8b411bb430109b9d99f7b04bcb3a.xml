@@ -868,6 +868,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-15 23:45:32</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>974c8b411bb430109b9d99f7b04bcb3a</sys_id>
         <sys_mod_count>13</sys_mod_count>
         <sys_name>Update NeedIt Records -Practice</sys_name>
