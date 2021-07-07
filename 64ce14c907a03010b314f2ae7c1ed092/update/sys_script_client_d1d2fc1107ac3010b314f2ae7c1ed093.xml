@@ -14,7 +14,7 @@
    //Type appropriate comment here, and begin script below
    //alert("cargandooo isacc2");
  
-  gform.setValue('description',g_user.firstName);
+  g_form.setValue('description',g_user.firstName);
 
    if(g_user.hasRoleExactly('ITIL'))
    {
@@ -38,7 +38,7 @@ function ajaxprocesador(response){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d1d2fc1107ac3010b314f2ae7c1ed093</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>NeedIt onLoad Example</sys_name>
         <sys_overrides/>
         <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
@@ -46,7 +46,7 @@ function ajaxprocesador(response){
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_update_name>sys_script_client_d1d2fc1107ac3010b314f2ae7c1ed093</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-07 13:34:23</sys_updated_on>
+        <sys_updated_on>2021-07-07 15:41:57</sys_updated_on>
         <table>x_647573_innovate_needit</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
