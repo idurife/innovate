@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_647573_innovate.ServiceNow201GlideAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ServiceNow201GlideAjax</name>
+        <script><![CDATA[var ServiceNow201GlideAjax = Class.create();
+ServiceNow201GlideAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getIncidentStatus: function () {
+		var incidentNumber = this.getParameter('sysparm_incident_number');
+		if (!gs.nil(incidentNumber)) {
+			var record = new GlideRecord('x_647573_innovate_needit');
+			record.get('number', incidentNumber);
+			return record.state.getDisplayValue();
+		} else {
+			return "No se encontro incidentes";
+		}
+	},
+	getLatesIncident: function () {
+		gs.info("Consultando getlaetsincident");
+
+		var incidents = [];
+		var responseObject = {};
+		var limit = parseInt(this.getParameter('sysparm_limit'));
+		var shortDescription = this.getParameter('sysparm_shortDesc');
+		//if (!gs.nil(limit) && (typeof limit == 'number') && !gs.nil(shortDescription)) {
+			if (!gs.nil(limit) && (typeof limit == 'number')) {
+			var record = new GlideRecord('x_647573_innovate_needit');
+			//record.addQuery('short_description','CONTAINS', shortDescription);
+			record.orderByDesc('sys_created_on');
+			record.setLimit(limit);
+			record.query();
+			while (record.next()) {
+				responseObject = {};
+				responseObject.number = record.number.getDisplayValue();
+				responseObject.sysID = record.sys_id.getDisplayValue();
+				responseObject.shortDescription = record.short_description.getDisplayValue();
+			gs.info("Informacion3----------:" +record.short_description.getDisplayValue() +' ' +record.number.getDisplayValue() + ' =>' + record.sys_id.getDisplayValue());
+				incidents.push(responseObject);
+			}
+		//	gs.info("Informacion json2----------:" +global.JSON().encode(incidents));
+		
+			return new global.JSON().encode(incidents);
+		} else {
+			return 'No encontro informacion'
+
+		}
+	},
+	sayHello: function () {
+		return "Hola mundo!!";
+	},
+	type: 'ServiceNow201GlideAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>fred.luddy</sys_created_by>
+        <sys_created_on>2021-07-05 18:00:55</sys_created_on>
+        <sys_id>bb5a3c6b1b0538109b9d99f7b04bcb99</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>ServiceNow201GlideAjax</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sys_script_include_bb5a3c6b1b0538109b9d99f7b04bcb99</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-06 02:03:51</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[	var ga = new GlideAjax('ServiceNow201GlideAjax');
+	ga.addParam('sysparm_name', 'getLatesIncident');
+	//ga.addParam('sysparm_shortDesc','Incident');
+	ga.addParam('sysparm_limit', '5');
+	ga.getXML(ajaxprocessor);
+
+
+	function ajaxprocessor(response) {
+	    console.log("Payloat response:" + response);
+	    var answer = response.responseXML.documentElement.getAttribute('answer');
+	    console.log("respuesta:" + answer);
+	    var json = answer.evalJSON();
+	    console.log('********************');
+	    console.log('json:' + json);
+		console.log(json[0].shortDescription);
+
+		//Recorrido  json array
+		//answer = JSON.parse(answer);
+		for (i = 0; i < json.length; i++) {
+			console.log("Recorriendo array: " +json[i].number);
+		}
+	}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_647573_innovate_ServiceNow 201 GlideAjax Example 2.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<h2>Practicando-Ejercicio 2</h2>
+</j:jelly>]]></html>
+        <name>ServiceNow 201 GlideAjax Example 2</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-05 22:28:41</sys_created_on>
+        <sys_id>5af971271bc538109b9d99f7b04bcb00</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>ServiceNow 201 GlideAjax Example 2</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sys_ui_page_5af971271bc538109b9d99f7b04bcb00</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-06 21:56:26</sys_updated_on>
+    </sys_ui_page>
+</record_update>
