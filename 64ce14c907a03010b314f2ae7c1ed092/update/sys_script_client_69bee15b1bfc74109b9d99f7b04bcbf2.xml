@@ -24,7 +24,7 @@
 		// two hr choices and other to the What needed field choice list
 		if(newValue == 'hr'){
 			g_form.addOption('u_what_needed','hr1','Human Resources 1');
-			//g_form.addOption('u_what_needed','hr2','Human Resources 2');
+		//	g_form.addOption('u_what_needed','hr2','Human Resources 2');
 			g_form.addOption('u_what_needed','other','Other');
 		}
 		// If the value of the Request type field is facilities, add
@@ -58,7 +58,7 @@
         <sys_domain>c94122494a362312007f2ce5bd78768f</sys_domain>
         <sys_domain_path>!!!/!!(/</sys_domain_path>
         <sys_id>69bee15b1bfc74109b9d99f7b04bcbf2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name> NeedIt Request Type Options</sys_name>
         <sys_overrides display_value=" NeedIt Request Type Options">128a381d07ac3010b314f2ae7c1ed082</sys_overrides>
         <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
@@ -66,7 +66,7 @@
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_update_name>sys_script_client_69bee15b1bfc74109b9d99f7b04bcbf2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-22 16:42:58</sys_updated_on>
+        <sys_updated_on>2021-07-12 13:34:37</sys_updated_on>
         <table>x_647573_innovate_needit</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
