@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Note">7e3c66421bd5b4109b9d99f7b04bcbcc</application>
+        <filter/>
+        <name>Notes</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_647573_innovate.note_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 20:30:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f63c66421bd5b4109b9d99f7b04bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notes</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sys_ui_module_f63c66421bd5b4109b9d99f7b04bcbcf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 20:30:44</sys_updated_on>
+        <table>x_647573_innovate_note</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</application>
+        <file_path/>
+        <instance_id>530f916ddb483050f37acac5059619bc</instance_id>
+        <instance_name>dev114858</instance_name>
+        <name>sys_ui_module_f63c66421bd5b4109b9d99f7b04bcbcf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Note">7e3c66421bd5b4109b9d99f7b04bcbcc</application><filter/><name>Notes</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_647573_innovate.note_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-13 20:30:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f63c66421bd5b4109b9d99f7b04bcbcf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Notes</sys_name><sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package><sys_policy/><sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope><sys_update_name>sys_ui_module_f63c66421bd5b4109b9d99f7b04bcbcf</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-13 20:30:44</sys_updated_on><table>x_647573_innovate_note</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>271913991</payload_hash>
+        <record_name>Notes</record_name>
+        <reverted_from/>
+        <source>f3f6adff1bb4f4109b9d99f7b04bcb3c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 20:30:44</sys_created_on>
+        <sys_id>fe3c66421bd5b4109b9d99f7b04bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17aa19092e80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 20:30:44</sys_updated_on>
+        <type>Module</type>
+        <update_guid>3a3c664279d5b4106a55df37139d20d1</update_guid>
+        <update_guid_history>3a3c664279d5b4106a55df37139d20d1:271913991</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-13 20:40:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>895c97f21c28459b8fdba59b24fa5ef9</sys_id>
+        <sys_metadata>f63c66421bd5b4109b9d99f7b04bcbcf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Notes</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_scope_delete display_value="">a2636f9d71e647cb8229cfe7f320db39</sys_scope_delete>
+        <sys_update_name>sys_ui_module_f63c66421bd5b4109b9d99f7b04bcbcf</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_f63c66421bd5b4109b9d99f7b04bcbcf">fe3c66421bd5b4109b9d99f7b04bcbd1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-13 20:40:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

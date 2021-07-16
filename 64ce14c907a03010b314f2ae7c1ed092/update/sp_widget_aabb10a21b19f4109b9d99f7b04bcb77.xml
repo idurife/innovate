@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function (spUtil,$rootScope, $scope) {
+  /* widget controller   */
+  var c = this;
+  c.selectItem = function (idx) {
+    var id = c.data.notes[idx].sys_id;
+    console.log('Note ID: ' + id);
+    $rootScope.noteID = id;
+    $rootScope.$emit('selectNote', id);
+  };
+
+  $rootScope.$on('actualizarNote', function (event, data) {
+    console.log("resultado respuesta:"+data.title);
+    c.data.title = data.title;
+    c.data.note = data.note;
+  });
+  spUtil.recordWatch($scope,'x_647573_innovate_note');
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>note_list_clone</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Note List Clone</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function () {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+  data.notes = [];
+  var record = new GlideRecord('x_647573_innovate_note');
+  record.addQuery('user', gs.getUser().getID());
+  record.orderByDesc('sys_created_on');
+  //record.setLimit(options.maximum_records_to_display);
+  record.query();
+  while (record.next()) {
+    var noteObj = {};
+    $sp.getRecordDisplayValues(noteObj, record, 'number,title,sys_id');
+    noteObj.note = record.getValue('note').slice(0, 20);
+    //push the populated obj into the array
+    data.notes.push(noteObj);
+    //prueba
+  }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-14 23:16:21</sys_created_on>
+        <sys_id>aabb10a21b19f4109b9d99f7b04bcb77</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Note List Clone</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sp_widget_aabb10a21b19f4109b9d99f7b04bcb77</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-14 23:21:54</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading clearfix">
+  <h3 class="panel-title pull-left">
+prueba
+  </h3>
+  </div>
+  <div class="list-group">
+  <a class="list-group-item" ng-click="c.selectItem($index)" ng-repeat="note in data.notes">
+  <h4 class="list-group-item-heading">
+  {{note.title}}-{{note.number}}
+  </h4>
+  <p class="list-group-item-text">
+  {{note.note}}
+  </p>
+  </a>
+  </div>
+  </div>]]></template>
+    </sp_widget>
+</record_update>
