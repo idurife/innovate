@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Note" max_length="40" name="x_647573_innovate_note" sizeclass="6" type="collection">
+    <element label="Note" max_length="40" name="x_647573_innovate_note" sizeclass="3" type="collection">
         <element label="Note" max_length="4000" name="note" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Title" max_length="200" name="title" type="string"/>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables>$help-now-primary:#20b9ac;&#13;
+$help-now-secundary:#1d9085;&#13;
+//isacc&#13;
+// $brand-info: #cfa76a !default;&#13;
+$brand-primary:$help-now-primary;&#13;
+$brand-success:#1fB476;&#13;
+ $panel-bg:#b38f8f;&#13;
+&#13;
+ $panel-default-heading-bg:$help-now-primary;&#13;
+ $panel-default-text:white;&#13;
+&#13;
+ $navbar-inverse-bg:$help-now-primary;&#13;
+ $navbar-inverse-link-color:white;&#13;
+ $sp-navbar-divider-color:$help-now-secundary;&#13;
+&#13;
+ $btn-default-bg:$help-now-primary;&#13;
+ $font-family-base:'Montserrat', sans-serif;&#13;
+&#13;
+//  $label-info-bg: lighten(desaturate($brand-info, 3.27%), 19.02);</css_variables>
+        <footer/>
+        <footer_fixed>true</footer_fixed>
+        <header display_value="Stock Header">bf5ec2f2cb10120000f8d856634c9c0c</header>
+        <name>HelpNow Theme</name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-19 17:12:16</sys_created_on>
+        <sys_id>cc5874041ba130109b9d99f7b04bcb64</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>HelpNow Theme</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sp_theme_cc5874041ba130109b9d99f7b04bcb64</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-19 21:58:09</sys_updated_on>
+    </sp_theme>
+</record_update>

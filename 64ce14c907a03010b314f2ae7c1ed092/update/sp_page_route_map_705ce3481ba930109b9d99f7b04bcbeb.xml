@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page_route_map">
+    <sp_page_route_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>10</order>
+        <portals>0608f0cc1b6130109b9d99f7b04bcb60</portals>
+        <route_from_page display_value="user_profile">edcbce64d710120023c84f80de610305</route_from_page>
+        <route_to_page display_value="hn_profile">6f6aef081ba930109b9d99f7b04bcbf6</route_to_page>
+        <short_description>HelpNow user aplicacion demo</short_description>
+        <sys_class_name>sp_page_route_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-20 06:20:06</sys_created_on>
+        <sys_id>705ce3481ba930109b9d99f7b04bcbeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>edcbce64d710120023c84f80de610305</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sp_page_route_map_705ce3481ba930109b9d99f7b04bcbeb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-20 06:20:06</sys_updated_on>
+    </sp_page_route_map>
+</record_update>

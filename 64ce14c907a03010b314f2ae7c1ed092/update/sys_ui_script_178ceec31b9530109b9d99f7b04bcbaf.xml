@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>filter  tipo pipe angular</description>
+        <global>false</global>
+        <name>x_647573_innovate.startsWithFilter</name>
+        <script><![CDATA[(function () {
+//ISAC
+        angular.module('startsWithFilter', []).filter('startsFilter', function () {
+
+                return function (input, filtervalue) {
+                        if (filtervalue) {
+
+                                var output = [];
+                                for (var i = 0; i < input.length; i++) {
+                                        if (input[i].short_desc.toLowerCase().substring(0, filtervalue.length) === filtervalue.toLowerCase()) {
+                                                output.push(input[i]);
+                                        }
+                                }
+                                return output;
+                        } else {
+                                return input;
+                        }
+                };
+        });
+})();]]></script>
+        <script_name>startsWithFilter</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-16 23:07:06</sys_created_on>
+        <sys_id>178ceec31b9530109b9d99f7b04bcbaf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_647573_innovate.startsWithFilter</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sys_ui_script_178ceec31b9530109b9d99f7b04bcbaf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-16 23:09:37</sys_updated_on>
+        <ui_type>10</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+</record_update>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>rss_blog</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>RSS blog</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+//try {
+
+//  var r = new sn_ws.RESTMessageV2();
+//  r.setHttpMethod('GET');
+//  r.setEndpoint('https://developer.servicenow.com/blog.do?p=/authors/chuck-tomasi/index.xml');
+
+//  var response = r.execute();
+//  var responseBody = response.getBody();
+//  var httpStatus = response.getStatusCode();
+
+// var xmldoc = new XMLDocument(responseBody);
+// var title = xmldoc.getNodeText("//title");
+// data.title = title
+
+// var helper = new XMLHelper(responseBody);
+// var obj = helper.toObject();
+
+// var items = obj.channel.item;
+// data.items = items
+	
+// }
+// catch(ex) {
+//         var message = ex.getMessage();
+// }
+//***********************************++++ */
+try { 
+  // var r = new sn_ws.RESTMessageV2('x_647573_innovate.ChuckTomaise', 'Default GET');
+  var r = new sn_ws.RESTMessageV2();
+ r.setHttpMethod('GET');
+ r.setEndpoint('https://developer.servicenow.com/blog.do?p=/authors/chuck-tomasi/index.xml');
+
+ //override authentication profile 
+ //authentication type ='basic'/ 'oauth2'
+ //r.setAuthenticationProfile(authentication type, profile name);
+ 
+ //set a MID server name if one wants to run the message on MID
+ //r.setMIDServer('MY_MID_SERVER');
+ 
+ //if the message is configured to communicate through ECC queue, either
+ //by setting a MID server or calling executeAsync, one needs to set skip_sensor
+ //to true. Otherwise, one may get an intermittent error that the response body is null
+ //r.setEccParameter('skip_sensor', true);
+ 
+  var response = r.execute();
+  var responseBody = response.getBody();
+  var httpStatus = response.getStatusCode();
+
+  var xmldoc = new XMLDocument2(responseBody);
+var title = xmldoc.getNodeText("//title");
+
+//*********************+ */
+// var xmlDoc=new XMLDocument2();
+// xmlDoc.parseXML(responseBody);
+// var title = xmldoc.getNodeText("//title");
+data.title = title;
+
+var helper = new XMLHelper(responseBody);
+var obj = helper.toObject();
+
+var items = obj.channel.item;
+data.items = items;
+ }
+ catch(ex) {
+  var message = ex.message;
+  gs.error("error=>"+message);
+ }
+
+
+
+
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-19 14:09:14</sys_created_on>
+        <sys_id>f47e4cc01b2130109b9d99f7b04bcb45</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>RSS blog</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sp_widget_f47e4cc01b2130109b9d99f7b04bcb45</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-19 15:31:54</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-primary" >
+  <div class="panel-heading">
+          <h2 class="h4 panel-title ng-binding">{{c.data.title}}</h2>
+  </div>
+      <div class="list-group">
+          <div ng-repeat="item in data.items | limitTo: 5" class="list-group-item">
+              <a ng-href={{item.link}} target="_blank"><h5>{{item.title }} </h5></a>
+              <!-- <div class="item-content">{{ item.description }}</div> --> 
+          </div>
+      </div>
+  </div>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>h1{&#13;
+    color:$help-now-primary;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>style_location</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Style location</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-19 17:32:36</sys_created_on>
+        <sys_id>fbfcb0081ba130109b9d99f7b04bcb79</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Style location</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sp_widget_fbfcb0081ba130109b9d99f7b04bcb79</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-19 18:21:07</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <h1>
+    Hello world
+  </h1>
+  
+  <button class="btn btn-primary">
+    Primary
+  </button>
+    <button class="btn btn-success">
+    Success
+  </button>
+  <button class="btn btn-default">
+    Default
+  </button>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Panel Title</h3>
+    </div>
+    <div class="panel-body">
+     <span>Panel content</span> 
+    </div>
+  </div>
+    <span class="label label-default">Default</span>
+    <span class="label label-primary">Primary</span>
+    <span class="label label-success">Success</span>
+    <span class="label label-info">Info</span>
+    <span class="label label-warning">Warning</span>
+    <span class="label label-danger">Danger</span>
+</div>]]></template>
+    </sp_widget>
+</record_update>
