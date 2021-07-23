@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>ni_postInfo</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource herea
+  var gr;
+    var inc = [];
+    var requestBody = request.body;
+    var requestData = requestBody.data;
+gs.info("Inicio");
+    for (i = 0; i < requestData.length; i++) {
+		gs.info("entro");
+        gr = new GlideRecord('x_647573_innovate_needit');
+        gr.initialize();
+		gs.info("requestData[i].u_requested_for" +  requestData[i].u_requested_for);
+		gs.info("requestData[i].short_description" + requestData[i].short_description);
+		gs.info(" requestData[i].u_when_needed" +   requestData[i].u_when_needed);
+		
+       // gr.setValue('u_requested_for', requestData[i].u_requested_for);
+	   gr.u_requested_for.setDisplayValue(requestData[i].u_requested_for);
+		//gr.u_requested_for="5137153cc611227c000bbd1bd8cd2005";
+		gr.short_description=requestData[i].short_description;
+		gr.u_when_needed=requestData[i].u_when_needed;
+		gr.u_requested_for_email=requestData[i].u_requested_for_email;
+		
+		//gr.setValue('u_requested_for').u_requested_for.setDisplayValue(requestData[i].u_requested_for);
+        //gr.setValue('short_description', requestData[i].short_description);
+        //gr.setValue('u_when_needed', requestData[i].u_when_needed);
+		  //gr.setValue('u_requested_for_email', requestData[i].u_requested_for_email);
+        gr.insert();
+        gr.addQuery("number", gr.number);
+        gr.query()
+
+
+        if (gr.next()) {
+			gs.info("result");
+            inc.push({
+                'Number': gr.number,
+                'Request type': gr.u_request_type.getDisplayValue(),
+                'Descripcion': gr.short_description
+            })
+
+        }
+    }
+    response.setBody(inc);
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_647573_innovate/testneedit_api</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-23 01:39:24</sys_created_on>
+        <sys_id>78f8c6091be570109b9d99f7b04bcb16</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>ni_postInfo</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sys_ws_operation_78f8c6091be570109b9d99f7b04bcb16</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-23 03:06:08</sys_updated_on>
+        <web_service_definition display_value="TestNeedit API">e64102811be570109b9d99f7b04bcb5d</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

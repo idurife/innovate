@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
@@ -12,7 +12,7 @@
         <order/>
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
-   //alert("cargandooo isacc2");
+   //alert("cargandooo isacc4");
  
   g_form.setValue('description',g_user.firstName);
 
@@ -38,7 +38,7 @@ function ajaxprocesador(response){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d1d2fc1107ac3010b314f2ae7c1ed093</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>NeedIt onLoad Example</sys_name>
         <sys_overrides/>
         <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
@@ -46,7 +46,7 @@ function ajaxprocesador(response){
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_update_name>sys_script_client_d1d2fc1107ac3010b314f2ae7c1ed093</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-07 15:41:57</sys_updated_on>
+        <sys_updated_on>2021-07-22 02:09:11</sys_updated_on>
         <table>x_647573_innovate_needit</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
