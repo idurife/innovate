@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <activity_stages>{"ends":["3f3c82601bb530109b9d99f7b04bcbb9"],"activities":{},"stages":{},"subflows":[]}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
@@ -31,9 +31,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-02 22:51:30</sys_created_on>
         <sys_id>f33c82601bb530109b9d99f7b04bcbb2</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-02 22:52:33</sys_updated_on>
+        <sys_updated_on>2021-08-03 19:45:54</sys_updated_on>
         <table>x_647573_innovate_needit_task</table>
         <timezone/>
         <validated>true</validated>
