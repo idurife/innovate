@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_scripts">
     <pa_scripts action="INSERT_OR_UPDATE">
-        <arguments>u_what_needed</arguments>
+        <arguments>u_when_needed</arguments>
         <description>Extraiga el día del mes de la fecha Cuando sea necesario</description>
         <name>NeedIt.day</name>
         <script><![CDATA[whichDay = function(){
 	
-		//Create a whenNeeded object from the GlideDateTime class.  The value
-		//of whenNeeded is the When needed date from the NeedIt record.
+		// Create a whenNeeded object from the GlideDateTime class.  The value
+		// of whenNeeded is the When needed date from the NeedIt record.
+		if(!current.u_when_needed.nil()){
 		var whenNeeded = new GlideDateTime(current.u_when_needed);
 		
 		//Return the day of the month part of the whenNeeded object
 		return whenNeeded.getDayOfMonthLocalTime();
-		
+		}
 	}; 
 	
 	whichDay();]]></script>
@@ -21,7 +22,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>71f4dd031bb074109b9d99f7b04bcba2</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>NeedIt.day</sys_name>
         <sys_overrides/>
         <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
@@ -29,7 +30,7 @@
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_update_name>pa_scripts_71f4dd031bb074109b9d99f7b04bcba2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-21 20:13:30</sys_updated_on>
+        <sys_updated_on>2021-08-09 15:09:49</sys_updated_on>
         <table>x_647573_innovate_needit</table>
     </pa_scripts>
     <sys_translated_text action="delete_multiple" query="documentkey=71f4dd031bb074109b9d99f7b04bcba2"/>

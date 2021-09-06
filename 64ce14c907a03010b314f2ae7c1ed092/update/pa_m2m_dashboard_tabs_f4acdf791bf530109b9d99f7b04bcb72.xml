@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="NeedIt Active Weekly">4b4cd3791bf530109b9d99f7b04bcbcc</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-07 01:55:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f4acdf791bf530109b9d99f7b04bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4b4cd3791bf530109b9d99f7b04bcbcc</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_f4acdf791bf530109b9d99f7b04bcb72</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-07 01:55:09</sys_updated_on>
+        <tab display_value="NeedIt Active Weekly - New Tab">f4acdf791bf530109b9d99f7b04bcb70</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

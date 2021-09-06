@@ -11,26 +11,26 @@
         <copied_from_name/>
         <description/>
         <internal_name>course_desactived_youtube</internal_name>
-        <label_cache>[{"name":"7fb83ff6-5448-4be1-a6f1-8e559921efa2.list","label":"3➛List","reference_display":"List","type":"array.object","base_type":"array.object","attributes":{"sourceId":"0974b16f-4703-4cd7-959d-bb23398fa1dd","child_name":"Records","uiUniqueId":"fe1dce64-70af-4535-af25-fb2f104b317a","uiTypeLabel":"Array.Object","co_type_name":"FDd5f44e2151f53010cfa7e1be15d766e7","child_label":"Records","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"0358a45b-f40a-414c-98e0-60ff5c63449a","uiType":"array.object","child_type":"object","child_uiUniqueId":"c8d50345-1fc2-4c69-b3b0-586035fbf4d1"}},{"name":"7fb83ff6-5448-4be1-a6f1-8e559921efa2.count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3eaee3d9-8c84-42cb-ae72-3b09de978990"}},{"name":"05ff892a-cf5e-471e-bc39-17eb15104494.variable","label":"1➛variable","reference_display":"variable","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"7f3f4211-64f1-450f-981e-4c7312e062bc"}},{"name":"538a2d26-84c1-4994-9d74-2a1c58503869.property_value","label":"1➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c7caefea-82b0-42b1-a12f-f06df09985a0"}},{"name":"Updated_1.current.short_description","label":"Trigger➛NeedIt Task Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_647573_innovate_needit_task","column_name":"short_description"},{"name":"8baf7f9f-5ce2-42d7-b5a2-9e75d29bfc6e.item","label":"5➛Records","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"8baf7f9f-5ce2-42d7-b5a2-9e75d29bfc6e.item.short_description","label":"5➛Records➛short_description","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"8baf7f9f-5ce2-42d7-b5a2-9e75d29bfc6e.item.state","label":"5➛Records➛state","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{}}]</label_cache>
+        <label_cache>[{"name":"8baf7f9f-5ce2-42d7-b5a2-9e75d29bfc6e.item.state","label":"5➛Records➛state","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{}},{"name":"8baf7f9f-5ce2-42d7-b5a2-9e75d29bfc6e.item.short_description","label":"5➛Records➛short_description","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"8baf7f9f-5ce2-42d7-b5a2-9e75d29bfc6e.item","label":"5➛Records","reference_display":"Records","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Updated_1.current.short_description","label":"Trigger➛NeedIt Task Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_647573_innovate_needit_task","column_name":"short_description"},{"name":"538a2d26-84c1-4994-9d74-2a1c58503869.property_value","label":"1➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c7caefea-82b0-42b1-a12f-f06df09985a0"}},{"name":"05ff892a-cf5e-471e-bc39-17eb15104494.variable","label":"1➛variable","reference_display":"variable","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"7f3f4211-64f1-450f-981e-4c7312e062bc"}},{"name":"7fb83ff6-5448-4be1-a6f1-8e559921efa2.count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3eaee3d9-8c84-42cb-ae72-3b09de978990"}},{"name":"7fb83ff6-5448-4be1-a6f1-8e559921efa2.list","label":"3➛List","reference_display":"List","type":"array.object","base_type":"array.object","attributes":{"sourceId":"0974b16f-4703-4cd7-959d-bb23398fa1dd","child_name":"Records","uiUniqueId":"fe1dce64-70af-4535-af25-fb2f104b317a","uiTypeLabel":"Array.Object","co_type_name":"FDd5f44e2151f53010cfa7e1be15d766e7","child_label":"Records","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"0358a45b-f40a-414c-98e0-60ff5c63449a","uiType":"array.object","child_type":"object","child_uiUniqueId":"c8d50345-1fc2-4c69-b3b0-586035fbf4d1"}}]</label_cache>
         <latest_snapshot>ae7a6d2d1b7530109b9d99f7b04bcb65</latest_snapshot>
         <master_snapshot>ae7a6d2d1b7530109b9d99f7b04bcb65</master_snapshot>
         <name>Course Desactived youtube</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id>727a6d2d1b7530109b9d99f7b04bcbd4</remote_trigger_id>
+        <remote_trigger_id>047e2b8c1b0a30109b9d99f7b04bcb71</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-05 21:28:28</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b406552d1b3530109b9d99f7b04bcb77</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Course Desactived youtube</sys_name>
         <sys_overrides/>
         <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_update_name>sys_hub_flow_b406552d1b3530109b9d99f7b04bcb77</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-06 01:29:32</sys_updated_on>
+        <sys_updated_on>2021-08-14 02:59:15</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=b406552d1b3530109b9d99f7b04bcb77"/>
@@ -58,42 +58,42 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-08-05 22:57:54</sys_created_on>
+        <sys_created_on>2021-08-14 02:59:14</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>727a6d2d1b7530109b9d99f7b04bcbd4</sys_id>
+        <sys_id>047e2b8c1b0a30109b9d99f7b04bcb71</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-05 22:57:54</sys_updated_on>
+        <sys_updated_on>2021-08-14 02:59:14</sys_updated_on>
         <table>x_647573_innovate_needit_task</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"7e7a6d2d1b7530109b9d99f7b04bcbd4","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"cc7e2b8c1b0a30109b9d99f7b04bcb71","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
         <identifier>b406552d1b3530109b9d99f7b04bcb77</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-08-05 22:57:54</sys_created_on>
-        <sys_id>7e7a6d2d1b7530109b9d99f7b04bcbd4</sys_id>
+        <sys_created_on>2021-08-14 02:59:14</sys_created_on>
+        <sys_id>cc7e2b8c1b0a30109b9d99f7b04bcb71</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-05 22:57:54</sys_updated_on>
-        <trigger display_value="">727a6d2d1b7530109b9d99f7b04bcbd4</trigger>
+        <sys_updated_on>2021-08-14 02:59:14</sys_updated_on>
+        <trigger display_value="">047e2b8c1b0a30109b9d99f7b04bcb71</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
-        <document_id>7e7a6d2d1b7530109b9d99f7b04bcbd4</document_id>
+        <document_id>cc7e2b8c1b0a30109b9d99f7b04bcb71</document_id>
         <field>trigger_runner</field>
         <length>144</length>
         <position>0</position>
         <source_table>sys_trigger_runner_mapping</source_table>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-08-05 22:57:54</sys_created_on>
-        <sys_id>767a6d2d1b7530109b9d99f7b04bcbd5</sys_id>
+        <sys_created_on>2021-08-14 02:59:14</sys_created_on>
+        <sys_id>847e2b8c1b0a30109b9d99f7b04bcb72</sys_id>
     </sys_json_chunk>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=b406552d1b3530109b9d99f7b04bcb77^sys_idNOT IN7e7a6d2d1b7530109b9d99f7b04bcbd4"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=b406552d1b3530109b9d99f7b04bcb77^sys_idNOT INcc7e2b8c1b0a30109b9d99f7b04bcb71"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=b406552d1b3530109b9d99f7b04bcb77^sys_idNOT INbe7665691b7530109b9d99f7b04bcb2e"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -104,10 +104,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-05 22:40:25</sys_created_on>
         <sys_id>be7665691b7530109b9d99f7b04bcb2e</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-06 01:29:32</sys_updated_on>
+        <sys_updated_on>2021-08-14 02:59:14</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -159,7 +159,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD332d06e5d9f53010b1cca641007a8950,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDab6ee78c2e0a30108f90f83970b8d7c4,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -217,14 +217,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-05 22:40:25</sys_created_on>
         <sys_id>2a7665691b7530109b9d99f7b04bcb22</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-06 01:29:32</sys_updated_on>
+        <sys_updated_on>2021-08-14 02:59:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -240,7 +240,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -298,14 +298,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-05 22:40:25</sys_created_on>
         <sys_id>6a7665691b7530109b9d99f7b04bcb1c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-06 01:24:11</sys_updated_on>
+        <sys_updated_on>2021-08-14 02:59:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -321,7 +321,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -379,14 +379,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-05 22:40:25</sys_created_on>
         <sys_id>fe7665691b7530109b9d99f7b04bcb27</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-06 01:24:11</sys_updated_on>
+        <sys_updated_on>2021-08-14 02:59:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -402,7 +402,7 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot/>
@@ -414,14 +414,28 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-06 01:29:32</sys_created_on>
         <sys_id>483d06e51bf530109b9d99f7b04bcb70</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-06 01:29:32</sys_updated_on>
+        <sys_updated_on>2021-08-14 02:59:15</sys_updated_on>
         <ui_id>a320ebc0-4f12-485e-bf42-4aa7232fe978</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=483d06e51bf530109b9d99f7b04bcb70"/>
     <sys_element_mapping action="delete_multiple" query="id=483d06e51bf530109b9d99f7b04bcb70"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>483d06e51bf530109b9d99f7b04bcb70</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 02:59:09</sys_created_on>
+        <sys_id>fa6ea78c1b0a30109b9d99f7b04bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 02:59:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0e0ae8c2531003003bf1d9109ec587c8</table>
+        <value>Short description:{{8baf7f9f-5ce2-42d7-b5a2-9e75d29bfc6e.item.short_description}}
+State:
+{{8baf7f9f-5ce2-42d7-b5a2-9e75d29bfc6e.item.state}}</value>
+    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>log_message</field>
         <id>483d06e51bf530109b9d99f7b04bcb70</id>
@@ -451,10 +465,10 @@ State:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-05 22:46:39</sys_created_on>
         <sys_id>4ee7e5a91b7530109b9d99f7b04bcbb7</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-06 01:29:32</sys_updated_on>
+        <sys_updated_on>2021-08-14 02:59:14</sys_updated_on>
         <ui_id>0ab196e1-dc7a-4f61-9b8a-5f08ff50c8c4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4ee7e5a91b7530109b9d99f7b04bcbb7"/>
@@ -485,7 +499,7 @@ State:
     </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_type display_value="Look up courses">069d35e91bb530109b9d99f7b04bcb7d</action_type>
+        <action_type display_value="Look up courses">c25c256d1b7530109b9d99f7b04bcbe6</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot/>
@@ -497,13 +511,27 @@ State:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-06 01:24:11</sys_created_on>
         <sys_id>65fbc2a51bf530109b9d99f7b04bcbe6</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-06 01:29:32</sys_updated_on>
+        <sys_updated_on>2021-08-14 02:59:14</sys_updated_on>
         <ui_id>7fb83ff6-5448-4be1-a6f1-8e559921efa2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=65fbc2a51bf530109b9d99f7b04bcbe6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>65fbc2a51bf530109b9d99f7b04bcbe6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 02:59:09</sys_created_on>
+        <sys_id>326ea78c1b0a30109b9d99f7b04bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 02:59:09</sys_updated_on>
+        <value>active=true</value>
+        <variable display_value="Filter">49b3f5211bb530109b9d99f7b04bcbd4</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
         <document_key>65fbc2a51bf530109b9d99f7b04bcbe6</document_key>
@@ -533,10 +561,10 @@ State:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-05 22:46:39</sys_created_on>
         <sys_id>cae7e5a91b7530109b9d99f7b04bcbb1</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-06 01:29:32</sys_updated_on>
+        <sys_updated_on>2021-08-14 02:59:14</sys_updated_on>
         <ui_id>538a2d26-84c1-4994-9d74-2a1c58503869</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cae7e5a91b7530109b9d99f7b04bcbb1"/>
@@ -602,10 +630,10 @@ State:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-06 01:29:32</sys_created_on>
         <sys_id>843d06e51bf530109b9d99f7b04bcb65</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-06 01:29:32</sys_updated_on>
+        <sys_updated_on>2021-08-14 02:59:15</sys_updated_on>
         <ui_id>fee969fb-8544-4952-ac9a-2432fc708d64</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -646,10 +674,10 @@ State:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-06 01:29:32</sys_created_on>
         <sys_id>c43d06e51bf530109b9d99f7b04bcb6a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-06 01:29:32</sys_updated_on>
+        <sys_updated_on>2021-08-14 02:59:15</sys_updated_on>
         <ui_id>8baf7f9f-5ce2-42d7-b5a2-9e75d29bfc6e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -749,12 +777,12 @@ State:
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fe7a6d2d1b7530109b9d99f7b04bcbd5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-05 22:57:54</sys_updated_on>
-        <trigger display_value="">727a6d2d1b7530109b9d99f7b04bcbd4</trigger>
+        <sys_updated_on>2021-08-14 02:59:14</sys_updated_on>
+        <trigger display_value="">047e2b8c1b0a30109b9d99f7b04bcb71</trigger>
     </sys_flow_trigger_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -767,7 +795,7 @@ State:
         <copied_from_name/>
         <description/>
         <internal_name>course_desactived_youtube</internal_name>
-        <label_cache>[{"name":"05ff892a-cf5e-471e-bc39-17eb15104494.variable","label":"1➛variable","reference_display":"variable","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"7f3f4211-64f1-450f-981e-4c7312e062bc"}},{"name":"538a2d26-84c1-4994-9d74-2a1c58503869.property_value","label":"1➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c7caefea-82b0-42b1-a12f-f06df09985a0"}},{"name":"Updated_1.current.short_description","label":"Trigger➛NeedIt Task Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_647573_innovate_needit_task","column_name":"short_description"}]</label_cache>
+        <label_cache>[{"name":"8baf7f9f-5ce2-42d7-b5a2-9e75d29bfc6e.item.state","label":"5➛Records➛state","reference":"","reference_display":"","type":"integer","base_type":"integer","column_name":"","attributes":{}},{"name":"8baf7f9f-5ce2-42d7-b5a2-9e75d29bfc6e.item.short_description","label":"5➛Records➛short_description","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"8baf7f9f-5ce2-42d7-b5a2-9e75d29bfc6e.item","label":"5➛Records","reference_display":"Records","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Updated_1.current.short_description","label":"Trigger➛NeedIt Task Record➛Short description","reference":"","reference_display":"Short description","type":"string","base_type":"string","parent_table_name":"x_647573_innovate_needit_task","column_name":"short_description"},{"name":"538a2d26-84c1-4994-9d74-2a1c58503869.property_value","label":"1➛Property Value","reference_display":"Property Value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"c7caefea-82b0-42b1-a12f-f06df09985a0"}},{"name":"05ff892a-cf5e-471e-bc39-17eb15104494.variable","label":"1➛variable","reference_display":"variable","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"7f3f4211-64f1-450f-981e-4c7312e062bc"}},{"name":"7fb83ff6-5448-4be1-a6f1-8e559921efa2.count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3eaee3d9-8c84-42cb-ae72-3b09de978990"}},{"name":"7fb83ff6-5448-4be1-a6f1-8e559921efa2.list","label":"3➛List","reference_display":"List","type":"array.object","base_type":"array.object","attributes":{"sourceId":"0974b16f-4703-4cd7-959d-bb23398fa1dd","child_name":"Records","uiUniqueId":"fe1dce64-70af-4535-af25-fb2f104b317a","uiTypeLabel":"Array.Object","co_type_name":"FDd5f44e2151f53010cfa7e1be15d766e7","child_label":"Records","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"0358a45b-f40a-414c-98e0-60ff5c63449a","uiType":"array.object","child_type":"object","child_uiUniqueId":"c8d50345-1fc2-4c69-b3b0-586035fbf4d1"}}]</label_cache>
         <master>true</master>
         <name>Course Desactived youtube</name>
         <natlang/>
@@ -784,7 +812,7 @@ State:
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ae7a6d2d1b7530109b9d99f7b04bcb65</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -792,7 +820,7 @@ State:
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-05 22:57:53</sys_updated_on>
+        <sys_updated_on>2021-08-14 02:59:12</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=ae7a6d2d1b7530109b9d99f7b04bcb65"/>
@@ -807,10 +835,10 @@ State:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-05 22:57:54</sys_created_on>
         <sys_id>3e7a6d2d1b7530109b9d99f7b04bcba6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-05 22:57:54</sys_updated_on>
+        <sys_updated_on>2021-08-14 02:59:14</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -862,7 +890,7 @@ State:
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -920,14 +948,14 @@ State:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-05 22:57:53</sys_created_on>
         <sys_id>227a6d2d1b7530109b9d99f7b04bcb85</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-05 22:57:53</sys_updated_on>
+        <sys_updated_on>2021-08-14 02:59:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -943,7 +971,7 @@ State:
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -960,8 +988,8 @@ State:
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -1001,14 +1029,14 @@ State:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-05 22:57:53</sys_created_on>
         <sys_id>267a6d2d1b7530109b9d99f7b04bcb6a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-05 22:57:53</sys_updated_on>
+        <sys_updated_on>2021-08-14 02:59:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1024,7 +1052,7 @@ State:
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD227a6d2db675301037d52ad65d656f68,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDab6ee78c2e0a30108f90f83970b8d7c4,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -1082,14 +1110,14 @@ State:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-05 22:57:53</sys_created_on>
         <sys_id>e67a6d2d1b7530109b9d99f7b04bcb7a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-05 22:57:53</sys_updated_on>
+        <sys_updated_on>2021-08-14 02:59:12</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1101,7 +1129,7 @@ State:
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=ae7a6d2d1b7530109b9d99f7b04bcb65^sys_idNOT IN367a6d2d1b7530109b9d99f7b04bcba5,e67a6d2d1b7530109b9d99f7b04bcb9e"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=ae7a6d2d1b7530109b9d99f7b04bcb65^sys_idNOT IN367a6d2d1b7530109b9d99f7b04bcba5,d76ee78c1b0a30109b9d99f7b04bcba3,d76ee78c1b0a30109b9d99f7b04bcba9,e67a6d2d1b7530109b9d99f7b04bcb9e"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1117,10 +1145,10 @@ State:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-05 22:57:54</sys_created_on>
         <sys_id>367a6d2d1b7530109b9d99f7b04bcba5</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-05 22:57:54</sys_updated_on>
+        <sys_updated_on>2021-08-14 02:59:12</sys_updated_on>
         <ui_id>0ab196e1-dc7a-4f61-9b8a-5f08ff50c8c4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=367a6d2d1b7530109b9d99f7b04bcba5"/>
@@ -1139,6 +1167,78 @@ State:
     </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
+        <action_type display_value="Look up courses">069d35e91bb530109b9d99f7b04bcb7d</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>c25c256d1b7530109b9d99f7b04bcbe6</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Course Desactived youtube">ae7a6d2d1b7530109b9d99f7b04bcb65</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 02:59:11</sys_created_on>
+        <sys_id>d76ee78c1b0a30109b9d99f7b04bcba3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 02:59:12</sys_updated_on>
+        <ui_id>7fb83ff6-5448-4be1-a6f1-8e559921efa2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d76ee78c1b0a30109b9d99f7b04bcba3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d76ee78c1b0a30109b9d99f7b04bcba3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 02:59:11</sys_created_on>
+        <sys_id>136ee78c1b0a30109b9d99f7b04bcba5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 02:59:11</sys_updated_on>
+        <value>active=true</value>
+        <variable display_value="Filter">8a9d35e91bb530109b9d99f7b04bcb80</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>0e0ae8c2531003003bf1d9109ec587c8</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Course Desactived youtube">ae7a6d2d1b7530109b9d99f7b04bcb65</flow>
+        <order>6</order>
+        <parent_ui_id>8baf7f9f-5ce2-42d7-b5a2-9e75d29bfc6e</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 02:59:12</sys_created_on>
+        <sys_id>d76ee78c1b0a30109b9d99f7b04bcba9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 02:59:12</sys_updated_on>
+        <ui_id>a320ebc0-4f12-485e-bf42-4aa7232fe978</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d76ee78c1b0a30109b9d99f7b04bcba9"/>
+    <sys_element_mapping action="delete_multiple" query="id=d76ee78c1b0a30109b9d99f7b04bcba9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>d76ee78c1b0a30109b9d99f7b04bcba9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 02:59:12</sys_created_on>
+        <sys_id>a76ee78c1b0a30109b9d99f7b04bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 02:59:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0e0ae8c2531003003bf1d9109ec587c8</table>
+        <value>Short description:{{8baf7f9f-5ce2-42d7-b5a2-9e75d29bfc6e.item.short_description}}
+State:
+{{8baf7f9f-5ce2-42d7-b5a2-9e75d29bfc6e.item.state}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
         <action_inputs/>
         <action_type display_value="Get System Property">bf5aa92d1b7530109b9d99f7b04bcbe2</action_type>
         <action_type_parent/>
@@ -1152,10 +1252,10 @@ State:
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-05 22:57:53</sys_created_on>
         <sys_id>e67a6d2d1b7530109b9d99f7b04bcb9e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-08-05 22:57:53</sys_updated_on>
+        <sys_updated_on>2021-08-14 02:59:12</sys_updated_on>
         <ui_id>538a2d26-84c1-4994-9d74-2a1c58503869</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e67a6d2d1b7530109b9d99f7b04bcb9e"/>
@@ -1197,6 +1297,95 @@ State:
         <sys_updated_on>2021-08-05 22:57:53</sys_updated_on>
         <table>var__m_sys_hub_action_input_bf5aa92d1b7530109b9d99f7b04bcbe2</table>
         <value>{{Updated_1.current.short_description}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=ae7a6d2d1b7530109b9d99f7b04bcb65^sys_idNOT IN636ee78c1b0a30109b9d99f7b04bcbab,6b6ee78c1b0a30109b9d99f7b04bcbaf"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">483d06e51bf530109b9d99f7b04bcb64</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Course Desactived youtube">ae7a6d2d1b7530109b9d99f7b04bcb65</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 02:59:12</sys_created_on>
+        <sys_id>636ee78c1b0a30109b9d99f7b04bcbab</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 02:59:12</sys_updated_on>
+        <ui_id>fee969fb-8544-4952-ac9a-2432fc708d64</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=636ee78c1b0a30109b9d99f7b04bcbab"/>
+    <sys_element_mapping action="delete_multiple" query="id=636ee78c1b0a30109b9d99f7b04bcbab"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>636ee78c1b0a30109b9d99f7b04bcbab</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 02:59:12</sys_created_on>
+        <sys_id>2f6ee78c1b0a30109b9d99f7b04bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 02:59:12</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{7fb83ff6-5448-4be1-a6f1-8e559921efa2.count}}&gt;0</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">003d06e51bf530109b9d99f7b04bcb6a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Course Desactived youtube">ae7a6d2d1b7530109b9d99f7b04bcb65</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>5</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>fee969fb-8544-4952-ac9a-2432fc708d64</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 02:59:12</sys_created_on>
+        <sys_id>6b6ee78c1b0a30109b9d99f7b04bcbaf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 02:59:12</sys_updated_on>
+        <ui_id>8baf7f9f-5ce2-42d7-b5a2-9e75d29bfc6e</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6b6ee78c1b0a30109b9d99f7b04bcbaf"/>
+    <sys_element_mapping action="delete_multiple" query="id=6b6ee78c1b0a30109b9d99f7b04bcbaf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>6b6ee78c1b0a30109b9d99f7b04bcbaf</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-14 02:59:12</sys_created_on>
+        <sys_id>2b6ee78c1b0a30109b9d99f7b04bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-14 02:59:12</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{7fb83ff6-5448-4be1-a6f1-8e559921efa2.list}}</value>
     </sys_element_mapping>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_ae7a6d2d1b7530109b9d99f7b04bcb65^sys_idNOT IN267a6d2d1b7530109b9d99f7b04bcb8b,a67a6d2d1b7530109b9d99f7b04bcb76,ee7a6d2d1b7530109b9d99f7b04bcb80"/>
     <sys_documentation action="INSERT_OR_UPDATE">
