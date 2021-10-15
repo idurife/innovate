@@ -8,7 +8,7 @@
         <default_value_type>manual</default_value_type>
         <field_name>u_requested_for</field_name>
         <input_source>user</input_source>
-        <input_style>inline</input_style>
+        <input_style>popup</input_style>
         <input_type>search_list</input_type>
         <mandatory>false</mandatory>
         <max_entries/>
@@ -25,14 +25,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-18 14:05:13</sys_created_on>
         <sys_id>fb34240a1b30b0109b9d99f7b04bcb15</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Requested for</sys_name>
         <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
         <sys_policy/>
         <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
         <sys_update_name>sys_sg_ui_parameter_fb34240a1b30b0109b9d99f7b04bcb15</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-18 14:27:48</sys_updated_on>
+        <sys_updated_on>2021-09-13 14:41:33</sys_updated_on>
         <table_name>x_647573_innovate_needit</table_name>
         <virtual_field_value>false</virtual_field_value>
     </sys_sg_ui_parameter>

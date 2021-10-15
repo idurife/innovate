@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_ui_policy_rule">
+    <sys_sg_ui_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>opened_at</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_sg_ui_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-13 17:32:20</sys_created_on>
+        <sys_id>166391061be670109b9d99f7b04bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>opened_at</sys_name>
+        <sys_package display_value="Innovate" source="x_647573_innovate">64ce14c907a03010b314f2ae7c1ed092</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Innovate">64ce14c907a03010b314f2ae7c1ed092</sys_scope>
+        <sys_update_name>sys_sg_ui_policy_rule_166391061be670109b9d99f7b04bcbfd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-13 17:32:20</sys_updated_on>
+        <table>x_647573_innovate_needit</table>
+        <ui_policy display_value="Other Field Visibility">838da2821bf4b0109b9d99f7b04bcb19</ui_policy>
+        <visible>true</visible>
+    </sys_sg_ui_policy_rule>
+</record_update>
